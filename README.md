@@ -1,30 +1,49 @@
-# Simple Webpage
+# Simple Project L3
 
-A clean and modern HTML/CSS webpage with a responsive design.
+Acesta este un proiect web static creat cu HTML și CSS. Pagina include o structură simplă de landing page cu antet, navigare, secțiuni principale și footer, plus un design modern și responsive.
 
-## Features
+## Descriere
 
-- Responsive navigation header
-- Three main sections (Home, About, Contact)
-- Fixed footer
-- Modern styling with hover effects
-- Clean typography and layout
+Proiectul are scopul de a demonstra construirea unei pagini web simple, cu:
 
-## Files
+- header cu meniu de navigare
+- secțiune principală pentru prezentare
+- secțiuni Home, About și Contact
+- footer cu informații generale
+- stiluri moderne, spacing consistent și efecte hover
 
-- `index.html` - Main HTML structure
-- `styles.css` - Stylesheet with all the styling
+## Structura fișierelor
 
-## How to Use
+- `index.html` - conține structura paginii și conținutul textual
+- `styles.css` - definește stilurile vizuale, layout-ul, culorile și responsivitatea
 
-1. Open `index.html` in your web browser
-2. Navigate between sections using the header links
+## Cum rulezi proiectul
 
-## Technologies
+1. Descarcă sau deschide folderul proiectului.
+2. Navighează la fișierul `index.html`.
+3. Deschide-l într-un browser web pentru a vedea pagina.
+
+Alternativ, poți folosi un server local simplu dacă vrei să lucrezi în mediu de dezvoltare, de exemplu:
+
+```bash
+python -m http.server 8000
+```
+
+Apoi accesezi în browser:
+
+```text
+http://localhost:8000
+```
+
+## Tehnologii utilizate
 
 - HTML5
 - CSS3
 
+## Observații
+
+Acest proiect este o bază bună pentru învățarea HTML/CSS și poate fi extins cu alte secțiuni, imagini, formulare sau animații.
+
 ---
 
-© 2025 My Simple Webpage
+© 2025 Simple Project L3
